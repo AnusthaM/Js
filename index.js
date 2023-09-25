@@ -8,3 +8,6 @@ console.log(person);
 
 let a =123;
 console.log(a);
+
+const b ="2003/01/03"
+console.log(b);
