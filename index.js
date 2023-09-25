@@ -12,7 +12,7 @@ console.log(a);
 const b ="2003/01/03"
 console.log(b);
 
-let d= new Date();
+const d= new Date();
 console.log(d);
 
 const isValid = true;
