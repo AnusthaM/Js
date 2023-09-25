@@ -15,5 +15,8 @@ console.log(b);
 const d= new Date();
 console.log(d);
 
+new da= new Date();
+console.log(da);
+
 const isValid = true;
 console.log(isValid);
