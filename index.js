@@ -6,5 +6,5 @@ console.log(person);
 
 //ES6
 
-let a ="123";
+let a =123;
 console.log(a);
