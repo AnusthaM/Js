@@ -1,15 +1,9 @@
+document.querySelector('.button').onclick=function(){
 let username="anustha";
 const password="12345";
 
-const user=prompt("Username =");
-console.log(user);
-
-let pass=prompt( "Password =");
-console.log(pass);
-
-let cpass=prompt( "Confirm Password =");
-console.log(cpass);
-
+let pass=document.querySelector('.pass').value;
+let cpass=document.querySelector('.cpass').value;
 
 if((user==username) && (pass==password) && (cpass==pass)){
 
@@ -19,3 +13,4 @@ if((user==username) && (pass==password) && (cpass==pass)){
     alert("Username and password is incorrect");
 }
 
+}
