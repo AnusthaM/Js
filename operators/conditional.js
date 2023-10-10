@@ -54,6 +54,7 @@ if (choice === "add") {
 }
 */
 //Q6
+/*
 const marks = 78;
 let grade;
 
@@ -103,3 +104,13 @@ switch (ch) {
   default:
     console.log("Invalid Choice");
 }
+*/
+
+marks = 35;
+if (marks > 32) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+
+marks > 32 ? console.log("Pass") : console.log("Fail");
