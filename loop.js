@@ -14,12 +14,12 @@ for (let i = 12; i <= 24; i++) {
 }
 
 //Q3
-let n = 5;
-for (let i = 1; i <= n; i++) {
+let num = 5;
+for (let i = 1; i <= num; i++) {
   console.log(`${i}`);
 }
 let i = 1;
-while (i <= n) {
+while (i <= num) {
   console.log(`${i}`);
   i++;
 }
